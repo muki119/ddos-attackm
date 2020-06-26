@@ -32,6 +32,9 @@ bytes_v = os.urandom(1500)
 os.system("clear")
 os.system("figlet DDos Attack")
 
+with open("as.txt","r") as aas:
+  for lines in aas:
+    print (lines.rstrip())
 
 print ()
 print (bcolors.OKGREEN,"Author   : HA-MRX",bcolors.ENDC)
@@ -65,4 +68,5 @@ while True:
      print ("Sent %s packet to %s throught port:%s"%(sent,ip,port))
      if port == 65534:
        port = 1
+
 
