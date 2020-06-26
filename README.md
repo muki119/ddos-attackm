@@ -1,2 +1,5 @@
 # ddos-attackm
-DDos attack
+git clone 
+cd DDos-Attack
+chmod +x ddos-attack.py
+python ddos-attack.py
