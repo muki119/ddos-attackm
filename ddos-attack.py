@@ -30,7 +30,7 @@ bytes_v = os.urandom(1500)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
+
 
 with open("as.txt","r") as aas:
   for lines in aas:
